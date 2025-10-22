@@ -51,4 +51,5 @@ ml-data-engineering-project/
 ├── environment.yaml                   # Configurações de ambiente
 ├── .gitignore                         # Ignorar arquivos sensíveis e temporários
 └── README.md                          # Descrição geral do projeto
+└── .env                               # Variaveis de Ambiente (Ocultada pelo .gitignore)
 ```
