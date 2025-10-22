@@ -4,7 +4,7 @@
 ml-data-engineering-project/
 │
 ├── 📂 driver/                         # Drivers necessários para conexões com bancos de dados ou APIs
-│   ├── jdbc.jar                       # Exemplo: Driver JDBC para conexões com bancos relacionais
+│   ├── mssql-jdbc-13.2.1.jre11.jar    # Exemplo: Driver JDBC para conexões com bancos relacionais
 │
 ├── 📂 notebooks/                      # Notebooks Jupyter organizados por etapa da pipeline ETL
 │   ├── 01-extract.ipynb               # Extração de dados (E)
@@ -38,7 +38,9 @@ ml-data-engineering-project/
 │   └── error_2025-10-21.log
 │
 ├── 📂 src/                          # Scripts e funções auxiliares reutilizáveis
-│   ├── db_connection.py               # Funções de conexão com bancos de dados
+│   ├── db_connection.py             # Funções de conexão com bancos de dados
+│   ├── __init__.py
+│   ├── utils.py                     # Funções de utilidade do Python
 │
 ├── 📂 tests/                          # Testes automatizados e validações unitárias
 │   ├── teste.py
