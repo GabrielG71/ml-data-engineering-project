@@ -37,11 +37,11 @@ ml-data-engineering-project/
 │   ├── etl_2025-10-21.log
 │   └── error_2025-10-21.log
 │
-├── 📂 utils/                          # Scripts e funções auxiliares reutilizáveis
+├── 📂 src/                          # Scripts e funções auxiliares reutilizáveis
 │   ├── db_connection.py               # Funções de conexão com bancos de dados
 │
 ├── 📂 tests/                          # Testes automatizados e validações unitárias
-│   ├── test_example.py
+│   ├── teste.py
 │
 ├── 📂 docs/                           # Documentação do projeto
 │   ├── architecture.md                # Arquitetura da pipeline ETL
