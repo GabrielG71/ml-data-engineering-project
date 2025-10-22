@@ -5,7 +5,6 @@ ml-data-engineering-project/
 │
 ├── 📂 driver/                         # Drivers necessários para conexões com bancos de dados ou APIs
 │   ├── jdbc.jar                       # Exemplo: Driver JDBC para conexões com bancos relacionais
-│   └── README.md                      # Descrição dos drivers utilizados e instruções de instalação
 │
 ├── 📂 notebooks/                      # Notebooks Jupyter organizados por etapa da pipeline ETL
 │   ├── 01-extract.ipynb               # Extração de dados (E)
@@ -22,7 +21,6 @@ ml-data-engineering-project/
 │   ├── 📂 json/                       # Dados em formato JSON
 │   │   └── dados_api.json
 │   ├── 📂 api_responses/              # Respostas salvas de APIs externas (cache)
-│   └── README.md                      # Descrição das origens e formatos dos dados
 │
 ├── 📂 output/                         # Resultados processados e prontos para uso
 │   ├── 📂 clean/                      # Dados limpos e transformados
@@ -44,7 +42,6 @@ ml-data-engineering-project/
 │   ├── data_cleaning.py               # Funções genéricas de limpeza e padronização
 │   ├── api_utils.py                   # Scripts para chamadas e tratamento de APIs
 │   ├── file_utils.py                  # Manipulação de arquivos (zip, csv, etc.)
-│   └── README.md                      # Descrição das utilidades e exemplos de uso
 │
 ├── 📂 tests/                          # Testes automatizados e validações unitárias
 │   ├── test_example.py
