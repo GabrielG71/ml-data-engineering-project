@@ -39,9 +39,6 @@ ml-data-engineering-project/
 │
 ├── 📂 utils/                          # Scripts e funções auxiliares reutilizáveis
 │   ├── db_connection.py               # Funções de conexão com bancos de dados
-│   ├── data_cleaning.py               # Funções genéricas de limpeza e padronização
-│   ├── api_utils.py                   # Scripts para chamadas e tratamento de APIs
-│   ├── file_utils.py                  # Manipulação de arquivos (zip, csv, etc.)
 │
 ├── 📂 tests/                          # Testes automatizados e validações unitárias
 │   ├── test_example.py
