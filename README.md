@@ -47,18 +47,14 @@ ml-data-engineering-project/
 │   └── README.md                      # Descrição das utilidades e exemplos de uso
 │
 ├── 📂 tests/                          # Testes automatizados e validações unitárias
-│   ├── test_data_cleaning.py
-│   ├── test_db_connection.py
-│   └── README.md
+│   ├── test_example.py
 │
 ├── 📂 docs/                           # Documentação do projeto
 │   ├── architecture.md                # Arquitetura da pipeline ETL
-│   ├── data-dictionary.md             # Dicionário de dados
 │   ├── sprints.md                     # Registro de sprints e tarefas (Scrum)
-│   └── team-notes.md                  # Notas e decisões de equipe
 │
 ├── requirements.txt                   # Dependências do projeto (pandas, sqlalchemy, etc.)
-├── config.yaml                        # Configurações globais (caminhos, credenciais, etc.)
+├── environment.yaml                   # Configurações de ambiente
 ├── .gitignore                         # Ignorar arquivos sensíveis e temporários
 └── README.md                          # Descrição geral do projeto
 ```
