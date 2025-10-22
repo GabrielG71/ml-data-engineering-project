@@ -12,6 +12,7 @@ ml-data-engineering-project/
 │   ├── 02-transform.ipynb             # Limpeza e transformação dos dados (T)
 │   ├── 03-load.ipynb                  # Carga dos dados em destino final (L)
 │   ├── 04-quality-check.ipynb         # Validação e controle de qualidade dos dados
+    ├── test.ipynb                     # Teste de Notebooks
 │
 ├── 📂 input/                          # Diretório de dados de entrada
 │   ├── 📂 csv/                        # Arquivos CSV brutos
@@ -60,3 +61,4 @@ ml-data-engineering-project/
 ├── config.yaml                        # Configurações globais (caminhos, credenciais, etc.)
 ├── .gitignore                         # Ignorar arquivos sensíveis e temporários
 └── README.md                          # Descrição geral do projeto
+```
