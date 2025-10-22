@@ -5,7 +5,6 @@ ml-data-engineering-project/
 │
 ├── 📂 driver/                         # Drivers necessários para conexões com bancos de dados ou APIs
 │   ├── jdbc.jar                       # Exemplo: Driver JDBC para conexões com bancos relacionais
-│   ├── mongo-driver.jar               # Exemplo: Driver para MongoDB
 │   └── README.md                      # Descrição dos drivers utilizados e instruções de instalação
 │
 ├── 📂 notebooks/                      # Notebooks Jupyter organizados por etapa da pipeline ETL
@@ -13,7 +12,6 @@ ml-data-engineering-project/
 │   ├── 02-transform.ipynb             # Limpeza e transformação dos dados (T)
 │   ├── 03-load.ipynb                  # Carga dos dados em destino final (L)
 │   ├── 04-quality-check.ipynb         # Validação e controle de qualidade dos dados
-│   └── exploratory-analysis.ipynb     # Análises exploratórias e testes manuais
 │
 ├── 📂 input/                          # Diretório de dados de entrada
 │   ├── 📂 csv/                        # Arquivos CSV brutos
