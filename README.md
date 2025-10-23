@@ -3,7 +3,7 @@
 ```bash
 ml-data-engineering-project/
 │
-├── 📂 driver/                         # Drivers necessários para conexões com bancos de dados ou APIs
+├── 📂 driver/                         # Drivers necessários para conexões com bancos de dados ou API
 │   ├── mssql-jdbc-13.2.1.jre11.jar    # Exemplo: Driver JDBC para conexões com bancos relacionais
 │
 ├── 📂 notebooks/                      # Notebooks Jupyter organizados por etapa da pipeline ETL
