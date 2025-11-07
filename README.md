@@ -1,57 +1,19 @@
-## 📁 Estrutura do Projeto
+# Projeto Spark Titans
 
-```bash
-ml-data-engineering-project/
-│
-├── 📂 driver/                         # Drivers necessários para conexões com bancos de dados ou API
-│   ├── mssql-jdbc-13.2.1.jre11.jar    # Exemplo: Driver JDBC para conexões com bancos relacionais
-│
-├── 📂 notebooks/                      # Notebooks Jupyter organizados por etapa da pipeline ETL
-│   ├── 01-extract.ipynb               # Extração de dados (E)
-│   ├── 02-transform.ipynb             # Limpeza e transformação dos dados (T)
-│   ├── 03-load.ipynb                  # Carga dos dados em destino final (L)
-│   ├── 04-quality-check.ipynb         # Validação e controle de qualidade dos dados
-    ├── test.ipynb                     # Teste de Notebooks
-│
-├── 📂 input/                          # Diretório de dados de entrada
-│   ├── 📂 csv/                        # Arquivos CSV brutos
-│   │   ├── combustivel.csv
-│   │   ├── vendas.csv
-│   │   └── clientes.csv
-│   ├── 📂 json/                       # Dados em formato JSON
-│   │   └── dados_api.json
-│   ├── 📂 api_responses/              # Respostas salvas de APIs externas (cache)
-│
-├── 📂 output/                         # Resultados processados e prontos para uso
-│   ├── 📂 clean/                      # Dados limpos e transformados
-│   │   ├── vendas_tratadas.csv
-│   │   └── combustivel_tratado.csv
-│   ├── 📂 reports/                    # Relatórios em CSV, Excel, ou PDF
-│   │   ├── relatorio_vendas.xlsx
-│   │   └── relatorio_estoque.pdf
-│   ├── 📂 powerbi/                    # Dados prontos para consumo por ferramentas de BI
-│   │   └── dataset_final.csv
-│   └── 📂 archive/                    # Dados históricos ou backups
-│
-├── 📂 logs/                           # Logs de execução e debug
-│   ├── etl_2025-10-21.log
-│   └── error_2025-10-21.log
-│
-├── 📂 src/                          # Scripts e funções auxiliares reutilizáveis
-│   ├── db_connection.py             # Funções de conexão com bancos de dados
-│   ├── __init__.py
-│   ├── utils.py                     # Funções de utilidade do Python
-│
-├── 📂 tests/                          # Testes automatizados e validações unitárias
-│   ├── teste.py
-│
-├── 📂 docs/                           # Documentação do projeto
-│   ├── architecture.md                # Arquitetura da pipeline ETL
-│   ├── sprints.md                     # Registro de sprints e tarefas (Scrum)
-│
-├── requirements.txt                   # Dependências do projeto (pandas, sqlalchemy, etc.)
-├── environment.yaml                   # Configurações de ambiente
-├── .gitignore                         # Ignorar arquivos sensíveis e temporários
-└── README.md                          # Descrição geral do projeto
-└── .env                               # Variaveis de Ambiente (Ocultada pelo .gitignore)
-```
+## Variação de vendas em determinados setores com base na temperatura brasileira
+
+# Introdução
+### O comportamento do consumidor é influenciado por diversos fatores, entre eles a temperatura se destaca como um dos mais relevantes, especialmente em um país de clima diverso como o Brasil. Este projeto tem como objetivo analisar a variação de vendas em setores específicos do mercado brasileiro com base nas mudanças de temperatura ao longo do tempo.
+
+### Por meio da coleta de dados meteorológicos e registros de vendas em APIs gratuitas, buscamos identificar possíveis correlações e padrões sazonais que impactam o desempenho de produtos e serviços.
+
+# Contribuição do projeto para o Marketing e o setor de varejo brasileiro
+
+### A partir dessa análise, é possível apoiar a tomada de decisão estratégica, otimizando estoques, campanhas de marketing e ações comerciais conforme as condições climáticas. Assim, este estudo visa demonstrar como a ciência de dados pode transformar informações ambientais em insights valiosos para o setor varejista, contribuindo para uma operação mais eficiente e alinhada ao comportamento do consumidor.
+
+## O que fazer com este software?
+
+### O software é altamente recomendado para o estudo, monitoramento e planejamento de vendas em diversos setores no Brasil. É uma ferramenta altamente auxiliar para empresas que desejam aprimorar a sua organização empresarial com o apoio da tecnologia e machine learning no cotidiano.
+
+
+
